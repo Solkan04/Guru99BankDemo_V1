@@ -1,0 +1,5 @@
+2020-06-17 16:11:49,258 [main] INFO Guru99BankDemo_V1 - URL is Opened
+2020-06-17 16:11:55,413 [main] INFO Guru99BankDemo_V1 - Entered Username
+2020-06-17 16:11:55,719 [main] INFO Guru99BankDemo_V1 - Entered Password
+2020-06-17 16:12:16,534 [main] INFO Guru99BankDemo_V1 - Clicked on Submit in Login Page
+2020-06-17 16:12:16,858 [main] INFO Guru99BankDemo_V1 - Login Test is Passed
