@@ -142,8 +142,11 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Guru99BankDemo_V1&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.guru99bank.utilities.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;BankDemoTest&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.guru99bank.testCases.TC_LoginTest_001&quot;/&gt;
     &lt;/classes&gt;
@@ -189,12 +192,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTest')
 data.setCell(0, 2, 'com.guru99bank.testCases.TC_LoginTest_001')
-data.setCell(0, 3, 5318);
+data.setCell(0, 3, 3635);
 window.suiteTableData['Guru99BankDemo_V1']= { tableData: data, tableDiv: 'times-div-Guru99BankDemo_V1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Guru99BankDemo_V1">
               </div> <!-- times-div-Guru99BankDemo_V1 -->
             </div> <!-- times-div -->
@@ -222,16 +225,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.guru99bank.testCases.TC_LoginTest_001</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUp(firefox)</span>
+                <span class="method-name">setUp(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">29656 ms</span>
+                <span class="method-start">18693 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">35083 ms</span>
+                <span class="method-start">22425 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

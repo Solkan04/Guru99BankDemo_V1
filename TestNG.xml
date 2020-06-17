@@ -2,6 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Guru99BankDemo_V1">
+	<listeners>
+		<listener class-name="com.guru99bank.utilities.Reporting" />
+	</listeners>
 	<test name="BankDemoTest">
 		<parameter name="browser" value="chrome" />
 		<classes>

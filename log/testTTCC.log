@@ -30,3 +30,11 @@
 2020-06-17 17:38:55,979 [main] INFO Guru99BankDemo_V1 - Clicked on Submit in Login Page
 2020-06-17 17:38:56,056 [main] INFO Guru99BankDemo_V1 - Login Test is Passed
 2020-06-17 17:39:04,998 [main] INFO Guru99BankDemo_V1 - End of Session
+2020-06-17 18:34:19,789 [main] INFO Guru99BankDemo_V1 - Start of Session
+2020-06-17 18:34:30,946 [main] INFO Guru99BankDemo_V1 - Launched Chrome Browser
+2020-06-17 18:34:38,356 [main] INFO Guru99BankDemo_V1 - URL is Opened
+2020-06-17 18:34:39,061 [main] INFO Guru99BankDemo_V1 - Entered Username
+2020-06-17 18:34:39,308 [main] INFO Guru99BankDemo_V1 - Entered Password
+2020-06-17 18:34:41,891 [main] INFO Guru99BankDemo_V1 - Clicked on Submit in Login Page
+2020-06-17 18:34:42,037 [main] INFO Guru99BankDemo_V1 - Login Test is Passed
+2020-06-17 18:34:44,516 [main] INFO Guru99BankDemo_V1 - End of Session
