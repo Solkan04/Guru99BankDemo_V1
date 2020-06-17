@@ -7,19 +7,22 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import com.guru99bank.utilities.ReadConfig;
+
 public class BaseClass 
 {
-	public String baseURL="http://demo.guru99.com/v4/";
-	public String username="mngr265426";
-	public String password="AzUdUde";
+	
+	ReadConfig readconfig=new ReadConfig();
+	public String baseURL=readconfig.getApplicationURL();
+	public String username=readconfig.getUsername();
+	public String password=readconfig.getPassword();
 	public static WebDriver driver;
 	public static Logger log;
 
 	@BeforeClass
 	public void setUp()
 	{
-		String path=System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", path+"//Drivers//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
 		driver=new ChromeDriver();
 		log=Logger.getLogger("Guru99BankDemo_V1");
 		PropertyConfigurator.configure("Log4j.properties");
