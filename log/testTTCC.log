@@ -227,3 +227,52 @@
 2020-06-17 21:00:15,217 [main] INFO Guru99BankDemo_V1 - Password Entered
 2020-06-17 21:00:23,601 [main] INFO Guru99BankDemo_V1 - Clicked on Submit in Login Page
 2020-06-17 21:00:29,599 [main] INFO Guru99BankDemo_V1 - End of Session
+2020-06-17 22:12:54,701 [main] INFO Guru99BankDemo_V1 - Start of Session
+2020-06-17 22:13:21,957 [main] INFO Guru99BankDemo_V1 - Launched Chrome Browser
+2020-06-17 22:13:30,969 [main] INFO Guru99BankDemo_V1 - URL is Opened
+2020-06-17 22:13:31,661 [main] INFO Guru99BankDemo_V1 - UserName is Entered
+2020-06-17 22:13:31,911 [main] INFO Guru99BankDemo_V1 - Passsword is Entered
+2020-06-17 22:13:44,402 [main] INFO Guru99BankDemo_V1 - Providing Customer Details....
+2020-06-17 22:13:57,432 [main] INFO Guru99BankDemo_V1 - Customer Registration Validation Started....
+2020-06-17 22:13:57,491 [main] INFO Guru99BankDemo_V1 - Test Case-TC_NewCustomer-003 is Passed....
+2020-06-17 22:14:00,364 [main] INFO Guru99BankDemo_V1 - End of Session
+2020-06-17 22:15:08,755 [main] INFO Guru99BankDemo_V1 - Start of Session
+2020-06-17 22:15:18,325 [main] INFO Guru99BankDemo_V1 - Launched Chrome Browser
+2020-06-17 22:15:30,063 [main] INFO Guru99BankDemo_V1 - URL is Opened
+2020-06-17 22:15:30,653 [main] INFO Guru99BankDemo_V1 - Entered Username
+2020-06-17 22:15:31,061 [main] INFO Guru99BankDemo_V1 - Entered Password
+2020-06-17 22:15:35,834 [main] INFO Guru99BankDemo_V1 - Clicked on Submit in Login Page
+2020-06-17 22:15:35,858 [main] INFO Guru99BankDemo_V1 - Login Test is Passed
+2020-06-17 22:15:37,055 [main] INFO Guru99BankDemo_V1 - End of Session
+2020-06-17 22:15:37,071 [main] INFO Guru99BankDemo_V1 - Start of Session
+2020-06-17 22:15:41,867 [main] INFO Guru99BankDemo_V1 - Launched Chrome Browser
+2020-06-17 22:15:56,736 [main] INFO Guru99BankDemo_V1 - URL is Opened
+2020-06-17 22:16:11,042 [main] INFO Guru99BankDemo_V1 - UserName Entered
+2020-06-17 22:16:11,395 [main] INFO Guru99BankDemo_V1 - Password Entered
+2020-06-17 22:16:12,879 [main] INFO Guru99BankDemo_V1 - Clicked on Submit in Login Page
+2020-06-17 22:16:14,227 [main] INFO Guru99BankDemo_V1 - Login Passed
+2020-06-17 22:16:15,046 [main] INFO Guru99BankDemo_V1 - Clicked on Log Out
+2020-06-17 22:16:23,388 [main] INFO Guru99BankDemo_V1 - UserName Entered
+2020-06-17 22:16:23,696 [main] INFO Guru99BankDemo_V1 - Password Entered
+2020-06-17 22:16:24,781 [main] INFO Guru99BankDemo_V1 - Clicked on Submit in Login Page
+2020-06-17 22:16:27,976 [main] INFO Guru99BankDemo_V1 - UserName Entered
+2020-06-17 22:16:28,302 [main] INFO Guru99BankDemo_V1 - Password Entered
+2020-06-17 22:16:29,166 [main] INFO Guru99BankDemo_V1 - Clicked on Submit in Login Page
+2020-06-17 22:16:38,361 [main] INFO Guru99BankDemo_V1 - UserName Entered
+2020-06-17 22:16:38,578 [main] INFO Guru99BankDemo_V1 - Password Entered
+2020-06-17 22:16:44,471 [main] INFO Guru99BankDemo_V1 - Clicked on Submit in Login Page
+2020-06-17 22:16:44,479 [main] INFO Guru99BankDemo_V1 - Login Passed
+2020-06-17 22:16:45,882 [main] INFO Guru99BankDemo_V1 - Clicked on Log Out
+2020-06-17 22:17:02,064 [main] INFO Guru99BankDemo_V1 - UserName Entered
+2020-06-17 22:17:02,277 [main] INFO Guru99BankDemo_V1 - Password Entered
+2020-06-17 22:17:03,241 [main] INFO Guru99BankDemo_V1 - Clicked on Submit in Login Page
+2020-06-17 22:17:07,763 [main] INFO Guru99BankDemo_V1 - End of Session
+2020-06-17 22:17:08,000 [main] INFO Guru99BankDemo_V1 - Start of Session
+2020-06-17 22:17:15,677 [main] INFO Guru99BankDemo_V1 - Launched Chrome Browser
+2020-06-17 22:17:30,299 [main] INFO Guru99BankDemo_V1 - URL is Opened
+2020-06-17 22:17:30,641 [main] INFO Guru99BankDemo_V1 - UserName is Entered
+2020-06-17 22:17:30,927 [main] INFO Guru99BankDemo_V1 - Passsword is Entered
+2020-06-17 22:17:56,632 [main] INFO Guru99BankDemo_V1 - Providing Customer Details....
+2020-06-17 22:18:20,048 [main] INFO Guru99BankDemo_V1 - Customer Registration Validation Started....
+2020-06-17 22:18:20,070 [main] INFO Guru99BankDemo_V1 - Test Case-TC_NewCustomer-003 is Passed....
+2020-06-17 22:18:21,460 [main] INFO Guru99BankDemo_V1 - End of Session

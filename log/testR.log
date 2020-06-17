@@ -227,3 +227,52 @@
 2020-06-17 21:00:15,217 - Guru99BankDemo_V1 -INFO - Password Entered
 2020-06-17 21:00:23,601 - Guru99BankDemo_V1 -INFO - Clicked on Submit in Login Page
 2020-06-17 21:00:29,599 - Guru99BankDemo_V1 -INFO - End of Session
+2020-06-17 22:12:54,701 - Guru99BankDemo_V1 -INFO - Start of Session
+2020-06-17 22:13:21,957 - Guru99BankDemo_V1 -INFO - Launched Chrome Browser
+2020-06-17 22:13:30,969 - Guru99BankDemo_V1 -INFO - URL is Opened
+2020-06-17 22:13:31,661 - Guru99BankDemo_V1 -INFO - UserName is Entered
+2020-06-17 22:13:31,911 - Guru99BankDemo_V1 -INFO - Passsword is Entered
+2020-06-17 22:13:44,402 - Guru99BankDemo_V1 -INFO - Providing Customer Details....
+2020-06-17 22:13:57,432 - Guru99BankDemo_V1 -INFO - Customer Registration Validation Started....
+2020-06-17 22:13:57,491 - Guru99BankDemo_V1 -INFO - Test Case-TC_NewCustomer-003 is Passed....
+2020-06-17 22:14:00,364 - Guru99BankDemo_V1 -INFO - End of Session
+2020-06-17 22:15:08,755 - Guru99BankDemo_V1 -INFO - Start of Session
+2020-06-17 22:15:18,325 - Guru99BankDemo_V1 -INFO - Launched Chrome Browser
+2020-06-17 22:15:30,063 - Guru99BankDemo_V1 -INFO - URL is Opened
+2020-06-17 22:15:30,653 - Guru99BankDemo_V1 -INFO - Entered Username
+2020-06-17 22:15:31,061 - Guru99BankDemo_V1 -INFO - Entered Password
+2020-06-17 22:15:35,834 - Guru99BankDemo_V1 -INFO - Clicked on Submit in Login Page
+2020-06-17 22:15:35,858 - Guru99BankDemo_V1 -INFO - Login Test is Passed
+2020-06-17 22:15:37,055 - Guru99BankDemo_V1 -INFO - End of Session
+2020-06-17 22:15:37,071 - Guru99BankDemo_V1 -INFO - Start of Session
+2020-06-17 22:15:41,867 - Guru99BankDemo_V1 -INFO - Launched Chrome Browser
+2020-06-17 22:15:56,736 - Guru99BankDemo_V1 -INFO - URL is Opened
+2020-06-17 22:16:11,042 - Guru99BankDemo_V1 -INFO - UserName Entered
+2020-06-17 22:16:11,395 - Guru99BankDemo_V1 -INFO - Password Entered
+2020-06-17 22:16:12,879 - Guru99BankDemo_V1 -INFO - Clicked on Submit in Login Page
+2020-06-17 22:16:14,227 - Guru99BankDemo_V1 -INFO - Login Passed
+2020-06-17 22:16:15,046 - Guru99BankDemo_V1 -INFO - Clicked on Log Out
+2020-06-17 22:16:23,388 - Guru99BankDemo_V1 -INFO - UserName Entered
+2020-06-17 22:16:23,696 - Guru99BankDemo_V1 -INFO - Password Entered
+2020-06-17 22:16:24,781 - Guru99BankDemo_V1 -INFO - Clicked on Submit in Login Page
+2020-06-17 22:16:27,976 - Guru99BankDemo_V1 -INFO - UserName Entered
+2020-06-17 22:16:28,302 - Guru99BankDemo_V1 -INFO - Password Entered
+2020-06-17 22:16:29,166 - Guru99BankDemo_V1 -INFO - Clicked on Submit in Login Page
+2020-06-17 22:16:38,361 - Guru99BankDemo_V1 -INFO - UserName Entered
+2020-06-17 22:16:38,578 - Guru99BankDemo_V1 -INFO - Password Entered
+2020-06-17 22:16:44,471 - Guru99BankDemo_V1 -INFO - Clicked on Submit in Login Page
+2020-06-17 22:16:44,479 - Guru99BankDemo_V1 -INFO - Login Passed
+2020-06-17 22:16:45,882 - Guru99BankDemo_V1 -INFO - Clicked on Log Out
+2020-06-17 22:17:02,064 - Guru99BankDemo_V1 -INFO - UserName Entered
+2020-06-17 22:17:02,277 - Guru99BankDemo_V1 -INFO - Password Entered
+2020-06-17 22:17:03,241 - Guru99BankDemo_V1 -INFO - Clicked on Submit in Login Page
+2020-06-17 22:17:07,763 - Guru99BankDemo_V1 -INFO - End of Session
+2020-06-17 22:17:08,000 - Guru99BankDemo_V1 -INFO - Start of Session
+2020-06-17 22:17:15,677 - Guru99BankDemo_V1 -INFO - Launched Chrome Browser
+2020-06-17 22:17:30,299 - Guru99BankDemo_V1 -INFO - URL is Opened
+2020-06-17 22:17:30,641 - Guru99BankDemo_V1 -INFO - UserName is Entered
+2020-06-17 22:17:30,927 - Guru99BankDemo_V1 -INFO - Passsword is Entered
+2020-06-17 22:17:56,632 - Guru99BankDemo_V1 -INFO - Providing Customer Details....
+2020-06-17 22:18:20,048 - Guru99BankDemo_V1 -INFO - Customer Registration Validation Started....
+2020-06-17 22:18:20,070 - Guru99BankDemo_V1 -INFO - Test Case-TC_NewCustomer-003 is Passed....
+2020-06-17 22:18:21,460 - Guru99BankDemo_V1 -INFO - End of Session

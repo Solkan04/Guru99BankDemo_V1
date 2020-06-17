@@ -5,8 +5,10 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -67,5 +69,30 @@ public class BaseClass
 		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
 		FileUtils.copyFile(source, target);
 		log.info("Screenshot Captured");
+	}
+	
+	public boolean isAlertPresent() // user defined method created to check alert is presetn or not
+	{
+		try 
+		{
+			driver.switchTo().alert();
+			return true;
+		}
+		catch (NoAlertPresentException e) 
+		{
+			return false;
+		}
+	}
+	
+	public String randomString() 
+	{
+		String generatedstring = RandomStringUtils.randomAlphabetic(8);
+		return (generatedstring);
+	}
+	
+	public static String randomNum()
+	{
+		String generatedString2=RandomStringUtils.randomNumeric(4);
+		return (generatedString2);
 	}
 }

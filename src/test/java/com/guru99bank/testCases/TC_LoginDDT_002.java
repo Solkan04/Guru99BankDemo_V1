@@ -2,7 +2,6 @@ package com.guru99bank.testCases;
 
 import java.io.IOException;
 
-import org.openqa.selenium.NoAlertPresentException;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -38,19 +37,6 @@ public class TC_LoginDDT_002 extends BaseClass
 			Thread.sleep(3000);
 			driver.switchTo().alert().accept();// close logout alert
 			driver.switchTo().defaultContent();
-		}
-	}
-
-	public boolean isAlertPresent() // user defined method created to check alert is presetn or not
-	{
-		try 
-		{
-			driver.switchTo().alert();
-			return true;
-		}
-		catch (NoAlertPresentException e) 
-		{
-			return false;
 		}
 	}
 
