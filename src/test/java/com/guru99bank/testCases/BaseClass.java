@@ -2,6 +2,7 @@ package com.guru99bank.testCases;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -19,7 +20,6 @@ import com.guru99bank.utilities.ReadConfig;
 
 public class BaseClass 
 {
-	
 	ReadConfig readconfig=new ReadConfig();
 	public String baseURL=readconfig.getApplicationURL();
 	public String username=readconfig.getUsername();
@@ -46,6 +46,8 @@ public class BaseClass
 			driver=new FirefoxDriver();
 			log.info("Launched Fire Fox Browser");
 		}
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
 		driver.get(baseURL);
 		log.info("URL is Opened"); 
 	}
