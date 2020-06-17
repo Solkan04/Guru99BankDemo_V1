@@ -4,8 +4,10 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 
 import com.guru99bank.utilities.ReadConfig;
 
@@ -19,19 +21,34 @@ public class BaseClass
 	public static WebDriver driver;
 	public static Logger log;
 
+	@Parameters("browser")
 	@BeforeClass
-	public void setUp()
+	public void setUp(String br)
 	{
-		System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
-		driver=new ChromeDriver();
 		log=Logger.getLogger("Guru99BankDemo_V1");
 		PropertyConfigurator.configure("Log4j.properties");
+		log.info("Start of Session");
+		if(br.equals("chrome"))
+		{
+			System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
+			driver=new ChromeDriver();
+			log.info("Launched Chrome Browser");
+		}
+		else if(br.equals("firefox"))
+		{
+			System.setProperty("webdriver.gecko.driver", readconfig.getFirefoxPath());
+			driver=new FirefoxDriver();
+			log.info("Launched Fire Fox Browser");
+		}
+		driver.get(baseURL);
+		log.info("URL is Opened"); 
 	}
 	
 	@AfterClass
 	public void tearDown()
 	{
 		driver.quit();
+		log.info("End of Session");
 	}
 
 }
