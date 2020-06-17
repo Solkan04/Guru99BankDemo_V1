@@ -1,5 +1,7 @@
 package com.guru99bank.testCases;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -9,7 +11,7 @@ import com.guru99bank.pageObjects.LoginPageObjs;
 public class TC_LoginTest_001 extends BaseClass
 {
 	@Test
-	public void loginTest() throws InterruptedException
+	public void loginTest() throws IOException
 	{
 		LoginPageObjs lpo=new LoginPageObjs(driver);
 		lpo.setUserName(username);
@@ -25,6 +27,7 @@ public class TC_LoginTest_001 extends BaseClass
 		}
 		else
 		{
+			captureScreen(driver, "TC_LoginTest_001");
 			Assert.assertTrue(false);
 			log.info("Login Test is Failed");
 		}
